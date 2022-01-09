@@ -1,0 +1,1193 @@
+@font-face {
+  font-family: logo;
+  src: url(fonts/Exo-Bold.otf);
+}
+
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.serverlogo {
+  color: white;
+}
+
+.serverlogo h1 {
+  font-family: logo;
+  font-size: 2vw;
+  right: 2vw;
+  text-shadow: .1vw .1vw .05vw rgb(146, 146, 146);
+  position: fixed;
+}
+
+.serverlogo h2 {
+  font-family: logo;
+  font-size: 1.2vw;
+  right: 2vw;
+  position: absolute;
+  text-shadow: .1vw .1vw .05vw rgb(146, 146, 146);
+  top: 2.5vw;
+}
+
+
+.bordesmall {
+  position: fixed;
+  height: 13.2vw;
+  width: 13.2vw;
+  border-radius:10vw;
+  bottom: 2.4vw;
+  left: 3.4vw;
+  border: .3vw #9643FE solid;
+}
+
+.bordemapa {
+  position: absolute;
+  height: 16vw;
+  width: 16vw;
+  border-radius:10vw;
+  bottom: 1vw;
+  left: 2.1vw;
+  border: .2vw #9643FE solid;
+}
+
+.ene {
+  position: fixed;
+  background-color: white;
+  height: 1.5vw;
+  width: 1.5vw;
+  border-radius: 1vw;
+  border: .1vw #9643FE solid;
+  left: 5.2vw;
+}
+
+.ene span {
+  font-family: logo;
+  font-size: 1vw;
+  margin: .4vw;
+}
+
+.serverdata {
+  position: absolute;
+  right: 8vw;
+  top: 5vw;
+}
+
+.serverdata h2 {
+  font-size: .8vw;
+  color: rgba(128, 128, 128, 0.699);
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: left;
+}
+
+.datosserver {
+  position: absolute;
+  right: 2vw;
+  top: 5vw;
+}
+
+.datosserver h2 {
+  font-size: .8vw;
+  color: rgb(255, 255, 255);
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: right;
+
+}
+
+.datosserver span {
+  background-color: rgba(128, 128, 128, 0.712);
+  padding: .1vw
+}
+
+.microfono {
+  position: absolute;
+  font-size: 3vw;
+  /* color: #AFFF48; */
+  color:  #8B8888;
+  right: 9vw;
+  top: 2vw;
+  animation: infinite 1s;
+}
+
+.microfono #walkie {
+  color: #8B8888;
+  margin-right: 2vw;
+}
+
+.cuadrados {
+  position: absolute;
+}
+
+
+.cuadrados .radiokey {
+  width: 1vw;
+  height: 1vw;
+  background-color: rgba(128, 128, 128, 0.582);
+  right: 17vw;
+  position: fixed;
+  top: 4vw;
+}
+
+.cuadrados .enekey {
+  width: 1vw;
+  height: 1vw;
+  background-color: rgba(128, 128, 128, 0.582);
+  right: 11.5vw;
+  position: fixed;
+  top: 4vw;
+}
+
+.cuadrados .enekey span {
+  color: white;
+  font-size: .8vw;
+  font-family: logo;
+  margin-left: .2vw;
+  position: fixed;
+}
+
+.cuadrados .radiokey span {
+  color: white;
+  font-size: .6vw;
+  font-family: logo;
+  margin-left: .1vw;
+  margin-top: .1vw;
+  position: fixed;
+}
+
+
+.tiempo {
+  position: absolute;
+}
+
+.hora {
+  font-size: 1.2vw;
+  font-family: logo;
+  color: white;
+  position: absolute;
+  left: 84vw;
+  top: 7vw;
+}
+
+.day {
+  font-size: .7vw;
+  font-family: logo;
+  color: gray;
+  position: absolute;
+  left: 84.1vw;
+  top: 8.5vw;
+}
+
+.dinero {
+  position: absolute;
+  right: 2vw;
+  top: 12vw;
+  text-align: left;
+}
+
+.dinero i {
+  font-size: 1vw;
+  color: white;
+}
+
+.money span {
+  color: #8F42ED;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 1.1vw;
+}
+
+.bank span {
+  color: #696969;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: .7vw;
+}
+
+.bank {
+  margin-left: 1vw;
+}
+.municiones {
+  position: absolute;
+}
+
+.armas {
+  position: absolute;
+  right: 2vw;
+  top: 16vw;
+}
+
+.weapon {
+  transform: scaleX(-1);
+  width: 9vw;
+}
+
+.logitosdebala img {
+  width: 1.5vw;
+  opacity: 40%;
+  position: fixed;
+  margin-left: 5vw;
+  margin-top: -0.8vw;
+}
+
+.restantes {
+  position: absolute;
+}
+
+.restantes span {
+  font-size: 1.3vw;
+  color: purple;
+  margin-left: 6.8vw;
+  margin-top: -.8vw;
+  position: fixed;
+  font-family: logo;
+}
+
+.total {
+  position: absolute;
+}
+
+.total span {
+  font-size: .8vw;
+  color: rgb(116, 113, 116);
+  margin-left: 8.5vw;
+  margin-top: -.6vw;
+  position: fixed;
+  font-family: logo;
+}
+
+.keybinds {
+  position: absolute;
+  top: 18vw;
+  left: 2vw;
+  text-align: center;
+}
+
+.circulo {
+  border-radius: 1vw;
+  height: 1.5vw;
+  width: 1.5vw;
+  border: .2vw solid rgb(196, 0, 196);
+  margin-top: .5vw;
+  background-color: rgba(128, 128, 128, 0.582);
+  display: flex; /* or inline-flex */
+  align-items: center; 
+  justify-content: center;
+}
+
+.circulo span {
+  position: fixed;
+  color: white;
+  font-size: .8vw;
+  font-family: logo;
+}
+
+
+.textito {
+  position: absolute;
+  font-size: .5vw;
+  font-family: logo;
+  color: white;
+  left: 5vw;
+  top: 18vw;
+}
+
+.textito h1 {
+  margin-top: 1vw;
+}
+
+.calle {
+  position: absolute;
+}
+
+.hexape {
+  width: 3.6vw;
+  height: 3.4vw; 
+  box-shadow: inset 0 0 2000px rgba(255, 255, 255, .5);
+  filter: blur(10px);
+  background: inherit;
+  clip-path: polygon(20% 0%, 80% 0%, 100% 50%, 80% 100%, 20% 100%, 0% 50%);
+  transform: rotate(-90deg);
+  bottom: 3vw;
+  position: fixed;
+  left: 23vw;
+}
+
+.calle i {
+  position: fixed;
+  bottom: 3.8vw;
+  font-size: 1.4vw;
+  left: 24vw;
+  z-index: 10;
+  color: white;
+}
+
+.calle h1 {
+  font-size: 1vw;
+  color: white;
+  font-family: logo;
+  bottom: 3.8vw;
+  left: 27vw;
+  position: fixed;
+}
+
+.calle h2 {
+  font-size: .6vw;
+  color: white;
+  font-family: logo;
+  bottom: 2.8vw;
+  left: 27vw;
+  position: fixed;
+}
+
+
+/* .hexanoti {
+  width: 4.6vw;
+  height: 4.4vw; 
+  box-shadow: inset 0 0 2000px rgba(114, 0, 0, 0.61);
+  filter: blur(10px);
+  background: inherit;
+  border: .2vw solid transparent;
+  clip-path: polygon(24.8% 5.5%, 75.2% 5.5%, 100% 50%, 75% 96.3%, 24% 96.3%, 0% 50%);
+
+  transform: rotate(-90deg);
+  bottom: 3vw;
+  position: absolute;
+  left: 40vw;
+}
+
+.octa {
+  width: 14.6vw;
+  height: 8.4vw; 
+  box-shadow: inset 0 0 2000px rgba(255, 255, 255, 0.438);
+  background: inherit;
+  border: .2vw solid transparent;
+  bottom: .9vw;
+  position: absolute;
+  left: 42.6vw;
+  clip-path: polygon(0% 19.8%, 0% 19.5%, 16.9% 21%, 100% 19.5%, 90.7% 75.3%, 0% 79%, 17.7% 64.5%, 18% 34.3%);
+}
+
+.notipe {
+  color: white;
+  font-family: logo;
+  font-size: 1vw;
+  position: absolute;
+  top: 1.5vw;
+  left: 3.5vw;
+}
+
+.notibody {
+  color: white;
+  font-family: logo;
+  font-size: .7vw;
+  position: absolute;
+  top: 3.6vw;
+  left: 3.5vw;
+}
+
+
+
+#test {
+  position: absolute;
+  left: 41.8vw;
+  top: 50vw;
+  font-size: 1.5vw;
+  z-index: 10;
+  color: white;
+} */
+
+
+
+/* 
+Carhud */
+
+.carhudatras {
+  position: absolute;
+  width: 18vw;
+  height: 2.5vw;
+  background-color: transparent;
+  bottom: 6vw;
+  right: 7vw;
+  transform: rotate(8deg);
+  border-radius: .2vw;
+}
+
+.delante {
+  background-color: #9643FF;
+  width: 40%;
+  height: 100%;
+  -webkit-box-shadow: 5px 5px 30px 5px #9643FF; 
+  box-shadow: 5px 5px 30px 5px #9643FF;
+  border-radius: .2vw;
+  transition: width .5s;
+}
+
+.lineas {
+  position: absolute;
+  background-color: rgba(0,0,0,0.4);
+  width: .4vw;
+  left: .4vw;
+  height: 2.5vw;
+  border-radius: .5vw;
+}
+
+.lineas2 {
+  position: absolute;
+  background-color:  rgba(0,0,0,0.4);
+  width: .4vw;
+  left: 1.2vw;
+  height: 2.5vw;
+  border-radius: .5vw;
+}
+
+.lineas3 {
+  position: absolute;
+  background-color:  rgba(0,0,0,0.4);
+  width: .4vw;
+  left: 2vw;
+  height: 2.5vw;
+  border-radius: .5vw;
+}
+
+.lineas4 {
+  position: absolute;
+  background-color:  rgba(0,0,0,0.4);
+  width: .4vw;
+  left: 2.8vw;
+  height: 2.5vw;
+  border-radius: .5vw;
+}
+
+
+.lineas5 {
+  position: absolute;
+  background-color:  rgba(0,0,0,0.4);
+  width: .4vw;
+  left: 3.6vw;
+  height: 2.5vw;
+  border-radius: .5vw;
+}
+
+.lineas6 {
+  position: absolute;
+  background-color:  rgba(0,0,0,0.4);
+  width: .4vw;
+  left: 4.4vw;
+  height: 2.5vw;
+  border-radius: .5vw;
+}
+.lineas7 {
+  position: absolute;
+  background-color:  rgba(0,0,0,0.4);
+  width: .4vw;
+  left: 5.2vw;
+  height: 2.5vw;
+  border-radius: .5vw;
+}
+.lineas8 {
+  position: absolute;
+  background-color:  rgba(0,0,0,0.4);
+  width: .4vw;
+  left: 6vw;
+  height: 2.5vw;
+  border-radius: .5vw;
+}
+.lineas9 {
+  position: absolute;
+  background-color:  rgba(0,0,0,0.4);
+  width: .4vw;
+  left: 6.8vw;
+  height: 2.5vw;
+  border-radius: .5vw;
+}
+.lineas10 {
+  position: absolute;
+  background-color:  rgba(0,0,0,0.4);
+  width: .4vw;
+  left: 7.6vw;
+  height: 2.5vw;
+  border-radius: .5vw;
+}
+.lineas11 {
+  position: absolute;
+  background-color:  rgba(0,0,0,0.4);
+  width: .4vw;
+  left: 8.4vw;
+  height: 2.5vw;
+  border-radius: .5vw;
+}
+
+.lineas12 {
+  position: absolute;
+  background-color:  rgba(0,0,0,0.4);
+  width: .4vw;
+  left: 9.2vw;
+  height: 2.5vw;
+  border-radius: .5vw;
+}
+
+
+.lineas13 {
+  position: absolute;
+  background-color:  rgba(0,0,0,0.4);
+  width: .4vw;
+  left: 10vw;
+  height: 2.5vw;
+  border-radius: .5vw;
+}
+
+.lineas14 {
+  position: absolute;
+  background-color:  rgba(0,0,0,0.4);
+  width: .4vw;
+  left: 10.8vw;
+  height: 2.5vw;
+  border-radius: .5vw;
+}
+
+.lineas15 {
+  position: absolute;
+  background-color:  rgba(0,0,0,0.4);
+  width: .4vw;
+  left: 11.6vw;
+  height: 2.5vw;
+  border-radius: .5vw;
+}
+.lineas16 {
+  position: absolute;
+  background-color:  rgba(0,0,0,0.4);
+  width: .4vw;
+  left: 12.4vw;
+  height: 2.5vw;
+  border-radius: .5vw;
+}
+
+.lineas17 {
+  position: absolute;
+  background-color:  rgba(0,0,0,0.4);
+  width: .4vw;
+  left: 13.2vw;
+  height: 2.5vw;
+  border-radius: .5vw;
+}
+
+.lineas18 {
+  position: absolute;
+  background-color:  rgba(0,0,0,0.4);
+  width: .4vw;
+  left: 14vw;
+  height: 2.5vw;
+  border-radius: .5vw;
+}
+
+.lineas19 {
+  position: absolute;
+  background-color:  rgba(0,0,0,0.4);
+  width: .4vw;
+  left: 14.8vw;
+  height: 2.5vw;
+  border-radius: .5vw;
+}
+
+
+.lineas20 {
+  position: absolute;
+  background-color:  rgba(0,0,0,0.4);
+  width: .4vw;
+  left: 15.6vw;
+  height: 2.5vw;
+  border-radius: .5vw;
+}
+
+.lineas21 {
+  position: absolute;
+  background-color:  rgba(0,0,0,0.4);
+  width: .4vw;
+  left: 16.4vw;
+  height: 2.5vw;
+  border-radius: .5vw;
+}
+
+.lineas22 {
+  position: absolute;
+  background-color:  rgba(0,0,0,0.4);
+  width: .4vw;
+  left: 17.2vw;
+  height: 2.5vw;
+  border-radius: .5vw;
+}
+
+
+.letrahud {
+  position: absolute;
+  width: 10vw;
+  height: 5vw;
+  bottom: 10vw;
+  right: 14vw;
+  transform: rotate(8deg);
+}
+
+.letrahud span {
+  font-family: logo;
+  font-size: 4vw;
+  color: white;
+}
+
+.letrahud h1 {
+  font-family: logo;
+  font-size: 1vw;
+  color: rgb(134, 134, 134);
+  position: absolute;
+  top: 1.5vw;
+  left: 8.5vw;
+}
+
+.lineahud {
+  position: absolute;
+  bottom: 9vw;
+  right: 7.1vw;
+  transform: rotate(8deg);
+  height: .2vw;
+  width: 17.6vw;
+  background-color: transparent;
+  margin: 0;
+  padding: 0;
+}
+
+.rellenolinea {
+  width: 40%;
+  height: 100%;
+  background-color: white;
+  -webkit-box-shadow: 5px 5px 17px 5px rgba(255,255,255,0.73); 
+  box-shadow: 5px 5px 17px 5px rgba(255,255,255,0.73);
+  border-radius: 1vw;
+  transition: width .5s;
+}
+
+
+.circulito {
+  background-color: rgb(247, 0, 255);
+  box-shadow: 5px 5px 17px 5px  rgb(247, 0, 255);
+  -webkit-box-shadow: 5px 5px 17px 5px  rgb(247, 0, 255);
+  width: .7vw;
+  height: .7vw;
+  float:inline-end;
+  border-radius: 10vw;
+  transform: rotate(8deg);
+  transition: width 2s;
+  margin: 0;
+  padding: 0;
+}
+
+
+.gasolina {
+    width: 7vw;
+    height: 1vw;
+    position: absolute;
+    background-color: rgb(207, 207, 207);
+    bottom: 4.5vw;
+    right: 15vw;
+    transform: rotate(8deg);
+    border-radius: .1vw;
+    transition: width 2s;
+}
+
+.rellenogasolina {
+  height: 100%;
+  width: 50%;
+  background-color: #9643FF;
+  border-radius: .1vw;
+  transition: width 2s;
+}
+
+.gasolina span {
+  font-family: logo;
+  font-size: 1vw;
+  color: white;
+  position: absolute;
+  right: 7.5vw;
+  top: 0vw;
+}
+
+.gasolina i {
+  font-size: 1vw;
+  color: white;
+  position: absolute;
+  left: 7.5vw;
+  top: 0vw;
+}
+
+.variadocar img {
+  width: 1.5vw;
+  height: 1.5vw;
+  position: absolute;
+  bottom: 3.3vw;
+  right: 11vw;
+  transform: rotate(8deg);
+}
+
+.circulocinturon {
+  bottom: 3.5vw;
+  position: absolute;
+  right: 10.2vw;
+  background-color: rgb(255, 0, 0);
+  width: .5vw;
+  height: .5vw;
+  border-radius: 1vw;
+  transform: rotate(8deg);
+}
+
+
+.variadocar i {
+  font-size: 1vw;
+  color: white;
+  position: absolute;
+  bottom: 3vw;
+  right: 8.5vw;
+  transform: rotate(8deg);
+}
+
+.circulobateria {
+  bottom: 3.1vw;
+  position: absolute;
+  right: 7.5vw;
+  background-color: rgb(255, 0, 0);
+  width: .5vw;
+  height: .5vw;
+  border-radius: 1vw;
+  transform: rotate(8deg);
+}
+
+.vida {
+  color: transparent;
+  position: absolute;
+  left: 20vw;
+  bottom: 10vw;
+}
+
+.chaleco {
+  color: transparent;
+  position: absolute;
+  left: 23.5vw;
+  bottom: 10vw;
+}
+
+.burger {
+  color: transparent;
+  position: absolute;
+  left: 27vw;
+  bottom: 10vw;
+}
+
+.water {
+  color: transparent;
+  position: absolute;
+  left: 30.5vw;
+  bottom: 10vw;
+}
+
+.stamina {
+  color: transparent;
+  position: absolute;
+  left: 34vw;
+  bottom: 10vw;
+}
+
+.swim {
+  color: transparent;
+  position: absolute;
+  left: 34vw;
+  bottom: 10vw;
+}
+
+@property --percentage {
+  initial-value: 0%;
+  inherits: false;
+  syntax: "<percentage>";
+}
+
+.chart {
+  background: conic-gradient(#ffffffbd var(--percentage), transparent 0);
+  border-radius: 50%;
+  width: 3vw;
+  height: 3vw;
+  animation: timer 4s linear;
+  position: absolute;
+  bottom: 9vw;
+  left: 20vw;
+}
+
+.circulitovida2 {
+  border-radius: 50%;
+  width: 3vw;
+  height: 3vw;
+  position: absolute;
+  background-color: transparent;
+  bottom: 9vw;
+  left: 20vw;
+}
+
+.circulitovida3 {
+  border-radius: 50%;
+  width: 2vw;
+  height: 2vw;
+  position: absolute;
+  background-color: transparent;
+  border: .3vw rgba(0, 0, 0, 0.301) solid;
+  bottom: 9.2vw;
+  left: 20.2vw;
+  z-index: 12;
+}
+
+.circulitovida2 i {
+  color: rgb(0, 0, 0);
+  position: absolute;
+  left: 1vw;
+  top: 1vw;
+  font-size: 1vw;
+  z-index: 1200;
+}
+
+.chartcomida {
+  background: conic-gradient(#ffbb006c var(--percentage), transparent 0);
+  border-radius: 50%;
+  width: 3vw;
+  height: 3vw;
+  animation: timer 4s linear;
+  position: absolute;
+  bottom: 9vw;
+  left: 24vw;
+}
+
+.circulitocomida {
+  border-radius: 50%;
+  width: 2vw;
+  height: 2vw;
+  position: absolute;
+  background-color: transparent;
+  border: .3vw rgba(0, 0, 0, 0.301) solid;
+  bottom: 9.2vw;
+  left: 24.2vw;
+  z-index: 12;
+}
+
+.circulitocomida2 {
+  border-radius: 50%;
+  width: 3vw;
+  height: 3vw;
+  position: absolute;
+  background-color: transparent;
+  bottom: 9vw;
+  left: 24vw;
+}
+
+.circulitocomida2 i {
+  color: rgb(255, 255, 255);
+  position: absolute;
+  left: 1vw;
+  top: 1vw;
+  font-size: 1vw;
+  z-index: 1200;
+}
+
+
+.chartagua {
+  background: conic-gradient(#0084ffbd var(--percentage), transparent 0);
+  border-radius: 50%;
+  width: 3vw;
+  height: 3vw;
+  animation: timer 4s linear;
+  position: absolute;
+  bottom: 9vw;
+  left: 28vw;
+}
+
+.circulitoagua {
+  border-radius: 50%;
+  width: 2vw;
+  height: 2vw;
+  position: absolute;
+  background-color: transparent;
+  border: .3vw rgba(0, 0, 0, 0.301) solid;
+  bottom: 9.2vw;
+  left: 28.2vw;
+  z-index: 12;
+}
+
+.circulitoagua2 {
+  border-radius: 50%;
+  width: 3vw;
+  height: 3vw;
+  position: absolute;
+  background-color: transparent;
+  bottom: 9vw;
+  left: 28vw;
+}
+
+.circulitoagua2 i {
+  color: rgb(255, 255, 255);
+  position: absolute;
+  left: 1vw;
+  top: 1vw;
+  font-size: 1vw;
+  z-index: 1200;
+}
+
+.chartcora {
+  background: conic-gradient(#ff0000bd var(--percentage), transparent 0);
+  border-radius: 50%;
+  width: 3vw;
+  height: 3vw;
+  animation: timer 4s linear;
+  position: absolute;
+  bottom: 9vw;
+  left: 32vw;
+}
+
+.circulitocora {
+  border-radius: 50%;
+  width: 2vw;
+  height: 2vw;
+  position: absolute;
+  background-color: transparent;
+  border: .3vw rgba(0, 0, 0, 0.301) solid;
+  bottom: 9.2vw;
+  left: 32.2vw;
+  z-index: 12;
+}
+
+.circulitocora2 {
+  border-radius: 50%;
+  width: 3vw;
+  height: 3vw;
+  position: absolute;
+  background-color: transparent;
+  bottom: 9vw;
+  left: 32vw;
+}
+
+.circulitocora2 i {
+  color: rgb(255, 255, 255);
+  position: absolute;
+  left: 1vw;
+  top: 1vw;
+  font-size: 1vw;
+  z-index: 1200;
+}
+
+
+.chartcorrer {
+  background: conic-gradient(#00ff40bd var(--percentage), transparent 0);
+  border-radius: 50%;
+  width: 3vw;
+  height: 3vw;
+  animation: timer 4s linear;
+  position: absolute;
+  bottom: 9vw;
+  left: 36vw;
+}
+
+.circulitocorrer {
+  border-radius: 50%;
+  width: 2vw;
+  height: 2vw;
+  position: absolute;
+  background-color: transparent;
+  border: .3vw rgba(0, 0, 0, 0.301) solid;
+  bottom: 9.2vw;
+  left: 36.2vw;
+  z-index: 12;
+}
+
+.circulitocorrer2 {
+  border-radius: 50%;
+  width: 3vw;
+  height: 3vw;
+  position: absolute;
+  background-color: transparent;
+  bottom: 9vw;
+  left: 36vw;
+}
+
+.circulitocorrer2 i {
+  color: rgb(255, 255, 255);
+  position: absolute;
+  left: 1vw;
+  top: 1vw;
+  font-size: 1vw;
+  z-index: 1200;
+}
+
+
+.chartnadar {
+  background: conic-gradient(#0051ffbd var(--percentage), transparent 0);
+  border-radius: 50%;
+  width: 3vw;
+  height: 3vw;
+  animation: timer 4s linear;
+  position: absolute;
+  bottom: 9vw;
+  left: 36vw;
+}
+
+.circulitonadar {
+  border-radius: 50%;
+  width: 2vw;
+  height: 2vw;
+  position: absolute;
+  background-color: transparent;
+  border: .3vw rgba(0, 0, 0, 0.301) solid;
+  bottom: 9.2vw;
+  left: 36.2vw;
+  z-index: 12;
+}
+
+.circulitonadar2 {
+  border-radius: 50%;
+  width: 3vw;
+  height: 3vw;
+  position: absolute;
+  background-color: transparent;
+  bottom: 9vw;
+  left: 36vw;
+}
+
+.circulitonadar2 i {
+  color: rgb(255, 255, 255);
+  position: absolute;
+  left: 1vw;
+  top: 1vw;
+  font-size: 1vw;
+  z-index: 1200;
+}
+
+.changefont {
+  width: 50vw;
+  height: 30vw;
+  left: 24vw;
+  top: 10vw;
+  background-color: rgba(0, 0, 0, 0.493);
+  position: absolute;
+  border-radius: 1vw;
+  -webkit-box-shadow: 1px 6px 15px 7px rgba(0,0,0,0.77); 
+  box-shadow: 1px 6px 15px 7px rgba(0,0,0,0.77);
+
+}
+
+.imagen1 {
+  width: 19vw;
+  height: 20vw;
+  left: 4vw;
+  top: 4vw;
+  position: absolute;
+  background-image: url(https://cdn.discordapp.com/attachments/929455742723960893/929457730882768986/unknown.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-box-shadow: 5px 5px 15px 5px #000000; 
+  box-shadow: 5px 5px 15px 5px #000000;
+  border-radius: .2vw;
+  cursor: pointer;
+  animation: 3s;
+}
+
+.imagen2 {
+  width: 19vw;
+  height: 20vw;
+  left: 27vw;
+  z-index: 10;
+  top: 4vw;
+  position: absolute;
+  background-image: url(https://cdn.discordapp.com/attachments/929455742723960893/929458038748905553/unknown.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-box-shadow: 5px 5px 15px 5px #000000; 
+  box-shadow: 5px 5px 15px 5px #000000;
+   border-radius: .2vw;
+   cursor: pointer;
+}
+
+.boton {
+  height: 2.5vw;
+  position: absolute;
+  left: 17.5vw;
+  top: 26vw;
+  width: 14vw;
+  text-decoration: none;
+  text-align: center;
+  background-color:rgba(0, 0, 0, 0.836);
+  border-radius: 1vw;
+  cursor: pointer;
+}
+
+.boton span {
+  margin-top: .6vw;  
+  left: 5.7vw;
+  position: absolute;
+  font-size: 1vw;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: white;
+}
+
+.imagen1 h1 {
+  font-size: 2vw;
+  color: white;
+  position: absolute;
+  font-family: fortnite;
+  left: 3vw;
+  top: 8vw;
+  z-index: 999;
+}
+
+.imagen1 span {
+  color: red;
+}
+
+.imagen1 h2 {
+  font-size: 2vw;
+  color: rgb(0, 0, 0);
+  position: absolute;
+  font-family: fortnite;
+  left: 3vw;
+  top: 7.9vw;
+}
+
+.changefont i {
+  font-size: 2vw;
+  position: absolute;
+  color: rgb(255, 67, 67);
+  left: 47vw;
+  top: 1vw;
+  cursor: pointer;
+}
+
+.imagen2 h1 {
+  font-size: 2vw;
+  color: white;
+  position: absolute;
+  font-family: segunda;
+  left: 3.4vw;
+  top: 7.5vw;
+  z-index: 999;
+}
+
+.imagen2 span {
+  color: red;
+}
+
+.imagen2 h2 {
+  font-size: 2vw;
+  color: rgb(0, 0, 0);
+  position: absolute;
+  font-family: segunda;
+  left: 3.4vw;
+  top: 7.5vw;
+}
+
+
+@keyframes timer {
+  to {
+    --percentage: 50%;
+  }
+}

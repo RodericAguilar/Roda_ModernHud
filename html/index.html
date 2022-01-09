@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/42fa621c2c.js" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous"></script>
+  <script src="app.js"></script>
+  <link href="https://cdn.jsdelivr.net/gh/hung1001/font-awesome-pro@4cac1a6/css/all.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" type="text/css" href="dist/loading-bar.css"/>
+<script type="text/javascript" src="dist/loading-bar.js"></script>
+</head>
+<body>
+  <div class="toditito">
+    <div class="textito">
+      <h1>Seat Belt</h1>
+      <h1>Stop Engine</h1>
+      <h1>Chat</h1>
+      <h1>Show/Hide Hud</h1>
+    </div>
+    <div class="keybinds">
+        <div class="circulo"><span>K</span></div>
+        <div class="circulo"><span>F4</span></div>
+        <div class="circulo"><span>T</span></div>
+        <div class="circulo"><span>Caps</span></div>
+    </div>
+
+    <div class="cuadrados">
+        <div class="radiokey">
+          <span>F4</span>
+        </div>
+        <div class="enekey">
+          <span>N</span>
+        </div>
+    </div>
+
+    <div class="tiempo">
+      <div class="hour">
+        <span class="hora">10:19</span>
+      </div>
+      <div class="dias">
+        <span class="day">29.06.2021</span>
+      </div>
+    </div>
+
+    <div class="microfono">
+      <i id="walkie" class="fas fa-walkie-talkie"></i>
+      <i class="fas fa-microphone"></i>
+    </div>
+
+    <div class="serverlogo">
+        <h1>Roda</h1> 
+        <h2>RolePlay</h2>
+    </div>
+
+    <div class="dinero">
+      <div class="money">
+        <i class="far fa-dollar-sign"><span class="moneyh"> 60.128.014</span></i>
+      </div>
+      <div class="bank">
+        <i class="fas fa-university"><span class="bankh"> $154.000.000</span></i>
+      </div>
+    </div>
+
+    <div class="armas" style="display: none;">
+        <img class="weapon" src="weapons/weapon_assaultrifle.png" alt="">
+        <div class="municiones">
+          <div class="logitosdebala">
+            <img src="weapons/weapon-bullets.png" alt="">
+          </div>
+          <div class="restantes">
+            <span class="balar">32</span>
+          </div>
+          <div class="total">
+            <span class="balat">128</span>
+          </div>
+        </div>
+    </div>
+
+    <div class="bordemapa">
+      <div class="ene">
+        <span>N</span>
+      </div>
+      <div class="bordesmall"></div>
+    </div>
+
+    <div class="serverdata">
+        <h2>UID</h2>
+        <h2>ID</h2>
+        <h2>ONLINE</h2>
+    </div>
+
+    <div class="datosserver">
+      <h2><span class="uidp">#XX4</span></h2>
+      <h2><span class="pid">132</span></h2>
+      <h2><span class="totalp">1/1000</span></h2>
+    </div>
+
+
+
+    <div class="calle" style="display: none;">
+      <i class="fas fa-location-arrow"></i>
+        <div class="hexape">
+        </div>
+        <h1 class="s1">First Street</h1>
+        <h2 class="s2">Second Street</h2>
+    </div>
+    <div class="carhudpe" style="display: none;">
+      <div class="letrahud">
+        <span class="velocidadtext">398</span>
+        <h1>KM/H</h1>
+      </div>
+
+      <div class="lineahud">
+        <div class="rellenolinea">
+          <div class="circulito"></div>
+        </div>
+      </div>
+
+      <div class="gasolina">
+        <div class="rellenogasolina"></div>
+        <span class="gasotext">100L</span>
+        <i class="fas fa-gas-pump"></i>
+      </div>
+
+      <div class="variadocar">
+        <i class="fad fa-car-battery"></i>
+          <img src="weapons/seatbelt.png" alt="">
+          <div class="circulocinturon"></div>
+          <div class="circulobateria"></div>
+      </div>
+
+      <div class="carhudatras">
+          <div class="lineas"></div>
+          <div class="lineas2"></div>
+          <div class="lineas3"></div>
+          <div class="lineas4"></div>
+          <div class="lineas5"></div>
+          <div class="lineas6"></div>
+          <div class="lineas7"></div>
+          <div class="lineas8"></div>
+          <div class="lineas9"></div>
+          <div class="lineas10"></div>
+          <div class="lineas11"></div>
+          <div class="lineas12"></div>
+          <div class="lineas13"></div>
+          <div class="lineas14"></div>
+          <div class="lineas15"></div>
+          <div class="lineas16"></div>
+          <div class="lineas17"></div>
+          <div class="lineas18"></div>
+          <div class="lineas19"></div>
+          <div class="lineas20"></div>
+          <div class="lineas21"></div>
+          <div class="lineas22"></div>
+          <div class="delante"></div>
+      </div>
+    </div>
+
+    <div class="hudanimado">
+      <div class="vida">
+        <div id="vidap" data-type="fill" data-img="weapons/cora.svg" class="ldBar" data-value = 40   data-img-size="50, 50"></div>
+      </div>
+      <div class="chaleco">
+        <div id="chalecop" data-type="fill" data-img="weapons/chaleco.svg" class="ldBar" data-value = 100   data-img-size="50, 50"></div>
+      </div>
+
+
+      <div class="burger">
+        <div id="burger" data-type="fill" data-img="weapons/burger.svg" class="ldBar" data-value = 100   data-img-size="50, 50"></div>
+      </div>  
+
+      <div class="water">
+        <div id="water" data-type="fill" data-img="weapons/water.svg" class="ldBar" data-value = 100   data-img-size="50, 50"></div>
+      </div> 
+
+      
+      <div class="stamina">
+        <div id="stamina" data-type="fill" data-img="weapons/correr.svg" class="ldBar" data-value = 100   data-img-size="50, 50"></div>
+      </div> 
+
+      <div class="swim">
+        <div id="swim" data-type="fill" data-img="weapons/swim.svg" class="ldBar" data-value = 80   data-img-size="50, 50"></div>
+      </div> 
+   </div>
+
+    <div class="hudreal">
+      <div class="circulitovida3"></div>
+      <div class="circulitovida2">
+        <i class="fas fa-vest"></i>
+      </div>
+      <div id="chaleco" class="chart"></div>
+  
+      <div class="circulitocomida"></div>
+      <div class="circulitocomida2">
+        <i class="fad fa-utensils-alt"></i>
+      </div>
+      <div id="comida" class="chartcomida"></div>
+  
+      <div class="circulitoagua"></div>
+      <div class="circulitoagua2">
+        <i class="fas fa-tint"></i>
+      </div>
+      <div id="agua" class="chartagua"></div>
+  
+      <div class="circulitocora"></div>
+      <div class="circulitocora2">
+        <i class="fas fa-heart"></i>
+      </div>
+      <div id="cora" class="chartcora"></div>
+  
+  
+      <div class="corriendope">
+      <div class="circulitocorrer"></div>
+      <div class="circulitocorrer2">
+        <i class="fas fa-running"></i>
+      </div>
+      <div id="correr" class="chartcorrer"></div>
+    </div>
+    
+      <div class="nadandope">
+      <div class="circulitonadar"></div>
+      <div class="circulitonadar2">
+        <i class="fas fa-swimmer"></i>
+      </div>
+      <div id="nadar" class="chartnadar"></div>
+    </div></div>
+
+    </div>
+   
+  </div>
+ 
+
+  <div class="changefont" id="mostrar" style="display: none;">
+      <div class="imagen1" id="letrauno">
+      </div>
+      <div class="imagen2" id="letrados">
+      </div>
+      <a class="boton"><span>Apply</span></a>
+  </div>
+
+</body>
+</html>
