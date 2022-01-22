@@ -62,8 +62,6 @@ if Config.UseRodaUID then
         end
     end)
     
-    end
-    
     
     RegisterNetEvent('Roda_GetUID:Server')
     AddEventHandler('Roda_GetUID:Server', function()
@@ -71,3 +69,4 @@ if Config.UseRodaUID then
         local UID = getUID(src)
         TriggerClientEvent('Roda_ModernHud:SetUID', src, UID)
     end)
+end
